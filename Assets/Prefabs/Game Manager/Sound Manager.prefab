@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &969487875848655059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 969487875848655057}
+  - component: {fileID: 969487875848655056}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &969487875848655057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969487875848655059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &969487875848655056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969487875848655059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67273f9786a26f7f92fb0e237cd8393, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Music
+    clip: {fileID: 8300000, guid: eed22db43f4954bfab3207b90b0d5c07, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BackMusic
+    clip: {fileID: 8300000, guid: 0a336106d05e79e94abc08270f47e7ee, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BattleTheme
+    clip: {fileID: 8300000, guid: 9e841b04dc898f457b8fbecb5c21086a, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 632d61ba090086feabcdd92bdebae32f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: JumpWhoosh
+    clip: {fileID: 8300000, guid: 26164a449fc3b291890174338fedd4a4, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dead
+    clip: {fileID: 8300000, guid: ac1a6d77d7d2294dab817afc4184378b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Checkpoint
+    clip: {fileID: 8300000, guid: 8529fbcf226ad606b8baba8401a46a02, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PooDead
+    clip: {fileID: 8300000, guid: 89188a380fa64355e8630910bc83703d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Finish
+    clip: {fileID: 8300000, guid: a57f74d3694e4a51280be9446bc76fdc, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 8d9c9931bb706f89d95d7cf62853d40e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ClickPen
+    clip: {fileID: 8300000, guid: dc95448c6fc26df119550487fc9dd3bc, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Coin
+    clip: {fileID: 8300000, guid: 87cf5fd75c9e964dd876a1cf89c307a4, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WhooshAir1
+    clip: {fileID: 8300000, guid: 79d08cae474308ca68500035d37d90ec, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WhooshAir2
+    clip: {fileID: 8300000, guid: edfd7046eb46989ccb466fa9068f6ca1, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WhooshAir3
+    clip: {fileID: 8300000, guid: 9cd25604fed1b42ce9655bbe0f6bd96c, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BodyStab1
+    clip: {fileID: 8300000, guid: 6474ac729b6d2c1e88f9f203e24582eb, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BodyStab2
+    clip: {fileID: 8300000, guid: ad4cdabc804bd2c3a9db0b0768e15cc8, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BodyStab3
+    clip: {fileID: 8300000, guid: fa6e468cba12d43fc86c80d339a48052, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BloodSplatter
+    clip: {fileID: 8300000, guid: aac72cb97ae7e5e0187743f83fbcea7e, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MagicAttack
+    clip: {fileID: 8300000, guid: f69086f7011cf23c09e2cba58f7f8c89, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WeaponSwing1
+    clip: {fileID: 8300000, guid: b8a78bc47958f1c359ddb15ac5fcd4c9, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WeaponSwing2
+    clip: {fileID: 8300000, guid: c729ea313ae9d53d8a601d8a14b041a5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WeaponSwing3
+    clip: {fileID: 8300000, guid: d0f4e4d318669d204b0c91225b98da8d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MonsterScream
+    clip: {fileID: 8300000, guid: 3686d87773528bdf2986150c4693b8fe, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MonsterGrowl1
+    clip: {fileID: 8300000, guid: 2a9058d2f14390d66b823c668808d524, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MonsterGrowl2
+    clip: {fileID: 8300000, guid: 879509749543d13649624ec10ccb312b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Gulp
+    clip: {fileID: 8300000, guid: a0acfc226baaaa8658d5591e6261c1bc, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  startMusicVolume: 0
+  startSfxVolume: 0
